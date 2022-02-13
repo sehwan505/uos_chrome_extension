@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
   "name": "uos_chrome_extension",
-  "description": "A chrome extension boilerplate built with React 17, Webpack 5, and Webpack Dev Server 4",
+  "description": "uos link extension",
   "options_page": "options.html",
   "background": { "service_worker": "background.bundle.js" },
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "icon-34.png"
+    "default_icon": "uos.png"
   },
   "chrome_url_overrides": {
     "newtab": "newtab.html"
